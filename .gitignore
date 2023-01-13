@@ -1,5 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# IDE
+/.idea
+/.awcache
+/.vscode
+
 # dependencies
 /node_modules
 /.pnp
@@ -10,6 +15,7 @@
 
 # production
 /build
+/.next
 
 # misc
 .DS_Store

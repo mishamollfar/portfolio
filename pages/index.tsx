@@ -1,14 +1,20 @@
 import Head from 'next/head';
 
-export default function HomePage() {
+import Layout from '../components/layout';
+
+const HomePage = () => {
     return (
-        <div>
+        <Layout>
             <Head>
-                <title>Mykhailo Baran - Portfolio</title>
-                <meta charSet="utf-8"/>
-                <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+                <title>Mykhailo Baran Portfolio</title>
             </Head>
-            <h1>Home Page</h1>
-        </div>
+            <section className="flex w-full">
+                <h1 className="text-6xl font-bold">
+                    Home page
+                </h1>
+            </section>
+        </Layout>
     );
 }
+
+export default HomePage
