@@ -12,7 +12,7 @@ export default function Layout({ children }) {
             <header className="py-4 px-4">
                 <Sidebar/>
             </header>
-            <main className="container mx-auto h-screen">
+            <main className="container mx-auto">
                 { children }
             </main>
             <Footer/>

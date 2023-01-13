@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind screens;
+
+html {
+    @apply h-full;
+}
+
+body {
+    @apply h-full;
+}
+
+#__next {
+    display: flex;
+    flex-direction: column;
+    @apply h-full;
+}
+
+main {
+    @apply h-full;
+}
