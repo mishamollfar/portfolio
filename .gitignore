@@ -4,6 +4,7 @@
 /.idea
 /.awcache
 /.vscode
+.idea
 
 # dependencies
 /node_modules
