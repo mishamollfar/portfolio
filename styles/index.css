@@ -18,5 +18,5 @@ body {
 }
 
 main {
-    @apply h-full;
+    height: auto;
 }

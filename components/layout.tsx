@@ -8,6 +8,7 @@ export default function Layout({ children }) {
             <Head>
                 <meta charSet="utf-8"/>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+                <title>Mykhailo Baran Portfolio</title>
             </Head>
             <header className="py-4 px-4">
                 <Sidebar/>

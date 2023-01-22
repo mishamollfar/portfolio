@@ -5,10 +5,10 @@ export default function ContactPage() {
     return (
         <Layout>
             <Head>
-                <title>Contact of the portfolio</title>
+                <title>Contact | Mykhailo Baran Portfolio</title>
             </Head>
             <section className="my-7">
-                <h1 className="text-2xl mt-7 mb-2">Контакти</h1>
+                <h1 className="text-3xl mt-7 mb-4">Контакти</h1>
                 <p className="text-lg mb-7">Якщо ви хочете зв'язатися зі мною, відправте email або через соціальні
                     мережі</p>
                 <form action="mailto:tymish1@gmail.com" method="post" encType="text/plain"
