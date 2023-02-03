@@ -17,7 +17,7 @@ export default function ProjectPage() {
                     <div className="flex items-center grow p-4 flex-row-reverse mb-10 mt-10">
                         <img className="shadow-lg shadow-indigo-500/100" src={ 'telemetr.png' } alt="Telemetrio"
                              width={ 300 } height={ 300 }/>
-                        <p className="p-4">
+                        <p className="py-4 pr-4">
                             <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold">
                                 <img className="mr-2" src={ 'telemetrio_logo.png' } alt="" width={ 26 } height={ 24 }/>
                                 <a href="https://telemetr.io" target="_blank" rel="noreferrer">Telemetr.io</a>
@@ -35,7 +35,7 @@ export default function ProjectPage() {
                     <div className="flex items-center grow p-4 mb-10 mt-10">
                         <img className="shadow-lg shadow-indigo-500/100" src={ 'telepost.png' } alt="Telepost"
                              width={ 300 } height={ 300 }/>
-                        <p className="p-4">
+                        <p className="py-4 pl-4">
                             <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold">
                                 <img className="mr-2" src={ 'telemetrio_logo.png' } alt="" width={ 26 } height={ 24 }/>
                                 <a href="https://telepost.me" target="_blank" rel="noreferrer">Telepost.me</a>
@@ -87,7 +87,7 @@ export default function ProjectPage() {
                     <div className="flex items-center flex-row-reverse grow p-4 mb-10 mt-10">
                         <img src={ 'mollfar.png' } alt="Mollfar" width={ 300 } height={ 300 }
                              className="shadow-lg shadow-indigo-500/100"/>
-                        <p className="p-4">
+                        <p className="py-4 pr-4">
                             <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold">
                                 <img className="mr-2" src={ 'mollfar_logo.ico' } alt="" width={ 24 } height={ 24 }/>
                                 <a href="http://mollfar.pp.ua" target="_blank" rel="noreferrer">mollfar</a>
