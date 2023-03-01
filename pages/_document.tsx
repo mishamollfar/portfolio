@@ -5,8 +5,8 @@ export default function PortfolioDocument() {
         <Html className="dark">
             <Head/>
             <body className="dark:bg-slate-900 text-white">
-            <Main/>
-            <NextScript/>
+                <Main/>
+                <NextScript/>
             </body>
         </Html>
     );

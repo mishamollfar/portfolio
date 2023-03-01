@@ -185,7 +185,7 @@ export default function AboutPage() {
                 </div>
                 <div className='flex flex-wrap items-center py-6'>
                     <h2 className='text-3xl text-center mt-10 mb-10 font-semibold w-full text-indigo-300'>Знання мов</h2>
-                    <p>
+                    <div>
                         <p>
                             <b className='text-purple-400'>українська</b>
                             <span> - експерт,</span>
@@ -194,7 +194,7 @@ export default function AboutPage() {
                             <b className='text-purple-400'>англійська</b>
                             <span> – базовий (читаю і частково розумію, елементарне спілкування).</span>
                         </p>
-                    </p>
+                    </div>
                 </div>
                 <div className='flex flex-wrap items-center py-6'>
                     <h2 className='text-3xl text-center mt-10 mb-10 font-semibold w-full text-indigo-300'>Хоббі</h2>
