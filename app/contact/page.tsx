@@ -7,7 +7,7 @@ export const metadata = {
 export default function ContactPage() {
     return (
         <section className="my-7">
-            <h1 className="text-3xl mt-7 mb-4">Контакти</h1>
+            <h1 className="text-3xl text-neutral-400 mt-7 mb-4 tracking-[.4em] uppercase">Контакти</h1>
             <p className="text-lg mb-7">Якщо ви хочете зв'язатися зі мною, відправте email або через соціальні
                 мережі</p>
             <form action="mailto:tymish1@gmail.com" method="post" encType="text/plain"
@@ -35,7 +35,7 @@ export default function ContactPage() {
                 </div>
 
             </form>
-            <Address/>
+            <Address />
         </section>
     );
 }
