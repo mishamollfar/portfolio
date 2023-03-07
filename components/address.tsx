@@ -1,16 +1,13 @@
 export default function Address() {
     return (
         <address className="text-lg my-6">
-            <p className='my-4 tracking-[.125em]'>
-                Address: м. Зборів, Тернопільська область, Україна
-            </p>
             <div className='flex flex-wrap items-center'>
                 <p className='basis-1/2 mt-2'>
-                    Email: <a className="text-sky-500 hover:text-sky-700 transition duration-300"
-                              href="mailto:tymish1@gmail.com">tymish1@gmail.com</a>
+                    Address: м. Зборів, Україна
                 </p>
                 <p className='basis-1/2 mt-2'>
-                    Phone: +380671705884
+                    Email: <a className="text-sky-500 hover:text-sky-700 transition duration-300"
+                                href="mailto:tymish1@gmail.com">tymish1@gmail.com</a>
                 </p>
                 <p className='basis-1/2 mt-2'>
                     Telegram: <a className="text-sky-500 hover:text-sky-700 transition duration-300"
