@@ -6,20 +6,23 @@ export const metadata = {
 
 export default function AboutPage() {
     return (
-        <div className="my-7">
-            <div className='flex items-center py-6 mb-12'>
+        <section className="my-7 w-full">
+            <div className='flex flex-col-reverse sm:flex-row items-center w-full py-4 sm:py-6 px-4 mb-4 sm:mb-12'>
                 <div>
-                    <h1 className="text-5xl text-neutral-400 mt-7 mb-10 tracking-[.4em] uppercase">About me</h1>
-                    <p className="text-lg mb-10 tracking-[.125em]">Я fullstack розробник із Зборова, Тернопільська область, Україна.
+                    <h1 className="text-4xl sm:text-5xl text-center sm: text-left text-neutral-400 mt-7 mb-10 tracking-[.4em] uppercase">
+                        About me
+                    </h1>
+                    <p className="text-lg mb-4 sm:mb-10 tracking-[.125em]">
+                            Я fullstack розробник із Зборова, Тернопільська область, Україна.
                         Розробкою займаюся з 2016 року, створюючи: веб-сервіси, розширення для chrome та користувацькі api.
                     </p>
                 </div>
                 <img className="shadow-lg shadow-indigo-500/100" src={ 'me.jpg' } alt="me"
                      width={ 300 } height={ 400 }/>
             </div>
-            <div className='flex flex-wrap items-center py-6'>
+            <div className='flex flex-wrap items-center w-full py-4 sm:py-6 px-4'>
                 <h2 className='text-3xl text-neutral-400 tracking-[.4em] text-center mt-10 mb-10 font-semibold w-full'>Професійні навики</h2>
-                <div className='flex flex-wrap items-center'>
+                <div className='flex flex-col sm:flex-row sm:flex-wrap items-center'>
                     <div className='flex flex-col items-center grow basis-1/2 py-4 px-2 mb-8'>
                         <h5 className='text-xl text-neutral-400 tracking-[.2em] py-2'>Мови програмування</h5>
                         <h3 className='text-justify text-xl text-purple-200 tracking-[.125em] font-bold p-1 mt-1'>
@@ -104,7 +107,7 @@ export default function AboutPage() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col py-6'>
+            <div className='flex flex-col w-full py-4 sm:py-6 px-4'>
                 <h2 className='text-3xl text-neutral-400 tracking-[.4em] text-center mt-10 mb-10 font-semibold w-full'>Відомості про роботу</h2>
                 <h3>досвід роботи – 6 роки ( з 06.08.2016р – по 14.11.2022р).</h3>
                 <h3>Працював в компанії  “Native Media”(м. Київ)  - fullstack розробником.</h3>
@@ -168,22 +171,22 @@ export default function AboutPage() {
                     </p>
                 </div>
             </div>
-            <div className='flex flex-wrap py-6'>
-                <h2 className='text-3xl text-neutral-400 tracking-[.4em] text-center mt-10 mb-10 font-semibold w-full w-full'>Освіта</h2>
-                <div className='flex flex-col items-center grow basis-1/4 p-4 mb-10'>
+            <div className='flex flex-col sm:flex-row sm:flex-wrap w-full py-4 sm:py-6 px-4'>
+                <h2 className='text-3xl text-neutral-400 tracking-[.4em] text-center mt-10 mb-10 font-semibold w-full'>Освіта</h2>
+                <div className='flex flex-col items-center grow sm:basis-1/4 p-4 mb-10'>
                     <h3 className='tracking-[.12em]'>2008 – 2012 рр.</h3>
                     <p className='text-center'>Зборівський коледж ТНТУ ім. І. Пулюя, спеціальність: “Розробка програмного забезпечення”, кваліфікація: “програміст”;</p>
                 </div>
-                <div className='flex flex-col items-center grow basis-1/4 p-4 mb-10'>
+                <div className='flex flex-col items-center grow sm:basis-1/4 p-4 mb-10'>
                     <h3 className='tracking-[.12em]'>2012 – 2014 рр.</h3>
                     <p className='text-center'>Тернопільський національний технічний університет імені Івана Пулюя, напрям підготовки: “Компʼютерні науки”, кваліфікація: “бакалавр-фахівець з інформаційних технологій”;</p>
                 </div>
-                <div className='flex flex-col items-center grow basis-1/4 p-4 mb-10'>
+                <div className='flex flex-col items-center grow sm:basis-1/4 p-4 mb-10'>
                     <h3 className='tracking-[.12em]'>2014 – 2016 рр.</h3>
                     <p className='text-center'>Тернопільський національний технічний університет імені Івана Пулюя, здобув повну вищу освіту за спеціальністю: “Інформаційні управляючі системи та технології”, кваліфікація: “аналітик комп’ютерних систем”;</p>
                 </div>
             </div>
-            <div className='flex flex-wrap items-center py-6'>
+            <div className='flex flex-wrap items-center w-full py-4 sm:py-6 px-4'>
                 <h2 className='text-3xl text-neutral-400 tracking-[.4em] text-center mt-10 mb-10 font-semibold w-full'>Знання мов</h2>
                 <div>
                     <p>
@@ -196,7 +199,7 @@ export default function AboutPage() {
                     </p>
                 </div>
             </div>
-            <div className='flex flex-wrap items-center py-6'>
+            <div className='flex flex-wrap items-center w-full py-4 sm:py-6 px-4'>
                 <h2 className='text-3xl text-neutral-400 tracking-[.4em] text-center mt-10 mb-10 font-semibold w-full'>Хоббі</h2>
                 <h3 className='text-justify text-xl text-purple-200 font-bold p-1 mt-1 tracking-[.125em]'>
                     читати книги
@@ -216,10 +219,10 @@ export default function AboutPage() {
                     грати настільні ігри
                 </h3>
             </div>
-            <div className='flex flex-wrap items-center py-6'>
+            <div className='flex flex-wrap items-center py-4 sm:py-6'>
                 <h2 className='text-3xl text-neutral-400 tracking-[.4em] text-center mt-10 mb-5 font-semibold w-full'>Контакти</h2>
                 <Address />
             </div>
-        </div>
+        </section>
     );
 }

@@ -4,7 +4,7 @@ import TextSphere from '../components/text-sphere';
 export default function HomePage() {
     return (
         <>
-            <section id='home' className="flex flex-col w-full px-12 py-36">
+            <section id='home' className="flex flex-col w-full px-12 py-12 md:py-36">
                 <h5 className='text-lg text-neutral-400 py-1.5 my-4 tracking-[.4em] uppercase'>
                     Mykhailo Baran
                 </h5>
@@ -15,29 +15,29 @@ export default function HomePage() {
                     fullstack developer / javascript
                 </h3>
             </section>
-            <section id='work' className="flex flex-col w-full px-12 pt-36 pb-20">
+            <section id='work' className="flex flex-col w-full px-12 pt-12 md:pt-36 pb-10 md:pb-20">
                 <div className='my-10'>
                     <h5 className='text-2xl text-neutral-400 pb-10 mb-10 tracking-[.4em] uppercase'>
                         Проекти
                     </h5>
-                    <ul className='flex flex-wrap items-center'>
-                        <li className='flex flex-col basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
+                    <ul className='flex flex-col lg:flex-row lg:flex-wrap items-center'>
+                        <li className='flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
                             <span className='tracking-[.125em]'>2018 - 2022рр. fullstack developer</span>
                             <span className='text-2xl text-sky-300 tracking-[.25em] mt-4'>Telemetrio</span>
                         </li>
-                        <li className='flex flex-col basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
+                        <li className='flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
                             <span className='tracking-[.125em]'>2017 - 2018рр. frontend developer</span>
                             <span className='text-2xl text-sky-300 tracking-[.25em] mt-4'>Telepost</span>
                         </li>
-                        <li className='flex flex-col basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
+                        <li className='flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
                             <span className='tracking-[.125em]'>2017 - 2018рр. fullstack developer</span>
                             <span className='text-2xl text-sky-300 tracking-[.25em] mt-4'>Chrome Plugins</span>
                         </li>
-                        <li className='flex flex-col basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
+                        <li className='flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
                             <span className='tracking-[.125em]'>2017р. frontend developer</span>
                             <span className='text-2xl text-sky-300 tracking-[.25em] mt-4'>Instapost</span>
                         </li>
-                        <li className='flex flex-col basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
+                        <li className='flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
                             <span className='tracking-[.125em]'>2016 - 2017рр. frontend developer / tester</span>
                             <span className='text-2xl text-sky-300 tracking-[.25em] mt-4'>Cosar</span>
                         </li>
@@ -47,14 +47,14 @@ export default function HomePage() {
                     <h5 className='text-2xl text-neutral-400 py-10 mb-10 tracking-[.4em] uppercase'>
                         Власні проекти
                     </h5>
-                    <ul className='flex flex-wrap items-center'>
-                        <li className='flex flex-col basis-1/4 grow m-4 p-6 shadow shadow-purple-500'>
+                    <ul className='flex flex-col md:flex-row md:flex-wrap items-center'>
+                        <li className='flex flex-col w-full md:basis-1/4 grow m-4 p-6 shadow shadow-purple-500'>
                             <span className='text-2xl text-sky-300 tracking-[.25em] m-4'>Portfolio</span>
                         </li>
-                        <li className='flex flex-col basis-1/4 grow m-4 p-6 shadow shadow-purple-500'>
+                        <li className='flex flex-col w-full md:basis-1/4 grow m-4 p-6 shadow shadow-purple-500'>
                             <span className='text-2xl text-sky-300 tracking-[.25em] m-4'>Train tickets</span>
                         </li>
-                        <li className='flex flex-col basis-1/4 grow m-4 p-6 shadow shadow-purple-500'>
+                        <li className='flex flex-col w-full md:basis-1/4 grow m-4 p-6 shadow shadow-purple-500'>
                             <span className='text-2xl text-sky-300 tracking-[.25em] m-4'>mollfar</span>
                         </li>
                     </ul>
@@ -64,7 +64,7 @@ export default function HomePage() {
                 <h5 className='text-lg text-neutral-400 pt-10 pb-5 tracking-[.4em] uppercase'>
                     Мої навики
                 </h5>
-                <div className='flex items-center'>
+                <div className='flex flex-col lg:flex-row items-center'>
                     <div className='flex flex-col text-base mr-4'>
                         <p className='mb-4 break-words whitespace-pre-wrap'>
                             З початком роботи в якості розробника, 6 років тому, я виконував різні задачі,

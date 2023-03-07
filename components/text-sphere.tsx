@@ -2,8 +2,11 @@
 
 import { useEffect } from 'react';
 import TagCloud from 'TagCloud';
+import useIsMobile from '../utils/useIsMobile';
 
 export default function TextSphere() {
+    const isMobile: boolean = useIsMobile();
+
     useEffect(() => {
         return () => {
             const container: string = '.tagcloud';
@@ -33,7 +36,7 @@ export default function TextSphere() {
             ];
 
             const options = {
-                radius: 300,
+                radius: isMobile ? 150 : 300,
                 maxSpeed: 'normal',
                 initialSpeed: 'normal',
                 keep: true,
