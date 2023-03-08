@@ -1,7 +1,7 @@
-import {useEffect, useState} from 'react';
+import { useEffect, useState } from 'react';
 
 const useIsMobile = (breackpoint = 768) => {
-    const [width, setWidth] = useState(window.innerWidth);
+    const [ width, setWidth ] = useState(breackpoint);
 
     const handlePageResized = () => {
         setWidth(window.innerWidth);

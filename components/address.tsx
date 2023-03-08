@@ -10,20 +10,28 @@ export default function Address() {
             </p>
             <p className='basis-1/2 mt-2'>
                 Telegram: <a className="text-sky-500 hover:text-sky-700 transition duration-300"
-                             href="https://t.me/moll_far" target="_blank">@moll_far</a>
+                             href="https://t.me/moll_far" target="_blank" rel="noreferrer">
+                @moll_far
+            </a>
             </p>
             <p className='basis-1/2 mt-2'>
                 Facebook: <a className="text-sky-500 hover:text-sky-700 transition duration-300"
-                             href="https://www.facebook.com/molfar7" target="_blank">molfar7</a>
+                             href="https://www.facebook.com/molfar7" target="_blank" rel="noreferrer">
+                molfar7
+            </a>
             </p>
             <p className='basis-1/2 mt-2'>
                 Github: <a className="text-sky-500 hover:text-sky-700 transition duration-300"
-                           href="https://github.com/mishamollfar" target="_blank">mishamollfar</a>
+                           href="https://github.com/mishamollfar" target="_blank" rel="noreferrer">
+                mishamollfar
+            </a>
             </p>
             <p className='basis-1/2 mt-2'>
                 Linkedin: <a className="text-sky-500 hover:text-sky-700 transition duration-300"
                              href="https://www.linkedin.com/in/misha-baran-a54895109/"
-                             target="_blank">misha-baran</a>
+                             target="_blank" rel="noreferrer">
+                misha-baran
+            </a>
             </p>
         </address>
     );

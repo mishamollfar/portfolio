@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import TagCloud from 'TagCloud';
+import TagCloud, { TagCloudOptions } from 'TagCloud';
 import useIsMobile from '../utils/useIsMobile';
 
 export default function TextSphere() {
@@ -9,8 +9,10 @@ export default function TextSphere() {
 
     useEffect(() => {
         return () => {
-            const container: string = '.tagcloud';
-
+            if (!document) {
+                return;
+            }
+            const container = document.querySelector('.tagcloud');
             const text: string[] = [
                 'HTML',
                 'CSS',
@@ -32,23 +34,25 @@ export default function TextSphere() {
                 'Webpack',
                 'npm',
                 'VS Code',
-                'WebStorm'
+                'WebStorm',
             ];
 
-            const options = {
+            const options: TagCloudOptions = {
                 radius: isMobile ? 150 : 300,
                 maxSpeed: 'normal',
-                initialSpeed: 'normal',
+                initSpeed: 'normal',
                 keep: true,
             };
 
-            TagCloud(container, text, options);
+            if (!!container) {
+                TagCloud([ container ], text, options);
+            }
         }
-    }, []);
+    });
 
     return (
         <div className='text-sphere flex relative top-0 w-full h-full items-center justify-center'>
-            <span className='tagcloud text-xl font-medium tracking-wider text-cyan-300'></span>
+            <span className="tagcloud text-xl font-medium tracking-wider text-cyan-300"/>
         </div>
     );
 }

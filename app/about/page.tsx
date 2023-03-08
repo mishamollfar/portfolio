@@ -1,4 +1,4 @@
-import Address from "../../components/address";
+import Address from '../../components/address';
 
 export const metadata = {
     title: 'About | Mykhailo Baran Portfolio',
@@ -162,9 +162,10 @@ export default function AboutPage() {
                     </ul>
                 </div>
                 <div className='flex flex-col my-4'>
-                    <h3 className='text-2xl text-neutral-400 tracking-[.2em] py-2'>Приклад власних сайтів:</h3>
+                    <h3 className="text-2xl text-neutral-400 tracking-[.2em] py-2">Приклад власних сайтів:</h3>
                     <p>
-                        <a href="http://mollfar.pp.ua/" target='_blank' className='text-sky-500 hover:text-sky-700 transition duration-300'>
+                        <a href="http://mollfar.pp.ua/" target="_blank" rel="noreferrer"
+                           className="text-sky-500 hover:text-sky-700 transition duration-300">
                             http://mollfar.pp.ua/
                         </a>
                         <span> - мій власний на Angular 2+</span>

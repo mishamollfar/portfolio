@@ -8,7 +8,9 @@ export default function ProjectsPage() {
             <h1 className="text-4xl text-neutral-400 mt-7 mb-10 pt-20 tracking-[.4em] uppercase">Portfolio Projects</h1>
             <p className="text-lg mb-10 pb-20 tracking-[.125em]">Детальніше з моїми власними проектами можна ознайомитись у моєму
                 <a className="text-sky-500 hover:text-sky-700 transition duration-300"
-                   href="https://github.com/mishamollfar" target="_blank" rel="noreferrer"> профілі на github</a>
+                   href="https://github.com/mishamollfar" target="_blank" rel="noreferrer">
+                    профілі на github
+                </a>
             </p>
             <div className="flex flex-col md:flex-row md:flex-wrap justify-between mt-8 md:mt-20">
                 <div className="flex flex-col md:flex-row-reverse items-center place-content-between grow p-4 my-6 md:my-10">
@@ -17,7 +19,9 @@ export default function ProjectsPage() {
                     <div className="py-4 md:pr-4 md:mr-6">
                         <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.2em]">
                             <img className="mr-2" src={ 'telemetrio_logo.png' } alt="" width={ 26 } height={ 24 }/>
-                            <a href="https://telemetr.io" target="_blank" rel="noreferrer">Telemetr.io</a>
+                            <a href="https://telemetr.io" target="_blank" rel="noreferrer">
+                                Telemetr.io
+                            </a>
                             <svg fill="none" viewBox="0 0 24 24" strokeWidth={ 1.5 } stroke="currentColor"
                                  className="w-6 h-6 ml-2">
                                 <path strokeLinecap="round" strokeLinejoin="round"
@@ -35,7 +39,9 @@ export default function ProjectsPage() {
                     <div className="py-4 md:pl-4 md:ml-6">
                         <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.2em]">
                             <img className="mr-2" src={ 'telemetrio_logo.png' } alt="" width={ 26 } height={ 24 }/>
-                            <a href="https://telepost.me" target="_blank" rel="noreferrer">Telepost.me</a>
+                            <a href="https://telepost.me" target="_blank" rel="noreferrer">
+                                Telepost.me
+                            </a>
                             <svg fill="none" viewBox="0 0 24 24" strokeWidth={ 1.5 } stroke="currentColor"
                                  className="w-6 h-6 ml-2">
                                 <path strokeLinecap="round" strokeLinejoin="round"
@@ -71,7 +77,9 @@ export default function ProjectsPage() {
                         <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.2em]">
                             <img className="mr-2" src={ 'train.ico' } alt="" width={ 24 } height={ 24 }/>
                             <a href="https://github.com/mishamollfar/train-tickets" target="_blank"
-                               rel="noreferrer">Train tickets</a>
+                               rel="noreferrer">
+                                Train tickets
+                            </a>
                             <svg fill="none" viewBox="0 0 24 24" strokeWidth={ 1.5 } stroke="currentColor"
                                  className="w-6 h-6 ml-2">
                                 <path strokeLinecap="round" strokeLinejoin="round"
@@ -88,7 +96,9 @@ export default function ProjectsPage() {
                     <div className="py-4 md:pr-4 md:mr-6">
                         <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.2em]">
                             <img className="mr-2" src={ 'mollfar_logo.ico' } alt="" width={ 24 } height={ 24 }/>
-                            <a href="http://mollfar.pp.ua" target="_blank" rel="noreferrer">mollfar</a>
+                            <a href="http://mollfar.pp.ua" target="_blank" rel="noreferrer">
+                                mollfar
+                            </a>
                             <svg fill="none" viewBox="0 0 24 24" strokeWidth={ 1.5 } stroke="currentColor"
                                  className="w-6 h-6 ml-2">
                                 <path strokeLinecap="round" strokeLinejoin="round"
@@ -139,7 +149,9 @@ export default function ProjectsPage() {
                     <div className="p-2">
                         <h3 className="text-2xl mb-2 text-sky-200 font-semibold tracking-[.12em]">
                             <a href="https://github.com/mishamollfar/react-chrome-extension-starter" target="_blank"
-                               rel="noreferrer">react-chrome-extension-starter</a>
+                               rel="noreferrer">
+                                react-chrome-extension-starter
+                            </a>
                         </h3>
                         <span className="italic text-sky-100">Minimal base chrome extension, which use react and typescript.</span>
                     </div>
@@ -149,7 +161,9 @@ export default function ProjectsPage() {
                     <div className="p-2">
                         <h3 className="text-2xl mb-2 text-sky-200 font-semibold tracking-[.12em]">
                             <a href="https://github.com/mishamollfar/screenshot-puppeteer-cluster" target="_blank"
-                               rel="noreferrer">screenshot-puppetter</a>
+                               rel="noreferrer">
+                                screenshot-puppetter
+                            </a>
                         </h3>
                         <span
                             className="italic text-sky-100">Project for create screenshot by puppeteer-cluster</span>
@@ -160,7 +174,9 @@ export default function ProjectsPage() {
                     <div className="p-2">
                         <h3 className="text-2xl mb-2 text-sky-200 font-semibold tracking-[.12em]">
                             <a href="https://github.com/mishamollfar/killer-advertising" target="_blank"
-                               rel="noreferrer">killer-advertising</a>
+                               rel="noreferrer">
+                                killer-advertising
+                            </a>
                         </h3>
                         <span className="italic text-sky-100">Slayer of advertising Chrome Extension!</span>
                     </div>
@@ -170,7 +186,9 @@ export default function ProjectsPage() {
                     <div className="p-2">
                         <h3 className="text-2xl mb-2 text-sky-200 font-semibold tracking-[.12em]">
                             <a href="https://github.com/mishamollfar/timezone-region" target="_blank"
-                               rel="noreferrer">timezone-region</a>
+                               rel="noreferrer">
+                                timezone-region
+                            </a>
                         </h3>
                         <span
                             className="italic text-sky-100">Angular проект-компонент для вибору timezone-region!</span>
@@ -181,7 +199,9 @@ export default function ProjectsPage() {
                     <div className="p-2">
                         <h3 className="text-2xl mb-2 text-sky-200 font-semibold tracking-[.12em]">
                             <a href="https://github.com/mishamollfar/script-parse-har-to-json" target="_blank"
-                               rel="noreferrer">script-parse-har-to-json</a>
+                               rel="noreferrer">
+                                script-parse-har-to-json
+                            </a>
                         </h3>
                         <span className="italic text-sky-100">JavaScript parse file *.har to *.json!</span>
                     </div>
