@@ -6,18 +6,20 @@ export default function ProjectsPage() {
     return (
         <section className="my-7 w-full px-4">
             <h1 className="text-4xl text-neutral-400 mt-7 mb-10 pt-20 tracking-[.4em] uppercase">Portfolio Projects</h1>
-            <p className="text-lg mb-10 pb-20 tracking-[.125em]">Детальніше з моїми власними проектами можна ознайомитись у моєму
-                <a className="text-sky-500 hover:text-sky-700 transition duration-300"
+            <p className="text-lg mb-10 pb-20 tracking-[.125em]">
+                Детальніше з моїми власними проектами можна ознайомитись у моєму
+                <a className="text-cyan-300 hover:text-cyan-500 transition duration-300"
                    href="https://github.com/mishamollfar" target="_blank" rel="noreferrer">
-                    профілі на github
+                    &nbsp;профілі на github
                 </a>
             </p>
             <div className="flex flex-col md:flex-row md:flex-wrap justify-between mt-8 md:mt-20">
-                <div className="flex flex-col md:flex-row-reverse items-center place-content-between grow p-4 my-6 md:my-10">
+                <div
+                    className="flex flex-col md:flex-row-reverse items-center place-content-between grow p-4 my-6 md:my-10">
                     <img className="shadow-lg shadow-indigo-500/100" src={ 'telemetr.png' } alt="Telemetrio"
                          width={ 300 } height={ 300 }/>
                     <div className="py-4 md:pr-4 md:mr-6">
-                        <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.2em]">
+                        <h3 className="flex items-center text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300 mb-2 font-semibold tracking-[.2em]">
                             <img className="mr-2" src={ 'telemetrio_logo.png' } alt="" width={ 26 } height={ 24 }/>
                             <a href="https://telemetr.io" target="_blank" rel="noreferrer">
                                 Telemetr.io
@@ -37,8 +39,8 @@ export default function ProjectsPage() {
                     <img className="shadow-lg shadow-indigo-500/100" src={ 'telepost.png' } alt="Telepost"
                          width={ 300 } height={ 300 }/>
                     <div className="py-4 md:pl-4 md:ml-6">
-                        <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.2em]">
-                            <img className="mr-2" src={ 'telemetrio_logo.png' } alt="" width={ 26 } height={ 24 }/>
+                        <h3 className="flex items-center text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300 mb-2 font-semibold tracking-[.2em]">
+                            <img className="mr-2" src={ 'telepost-icon.ico' } alt="" width={ 26 } height={ 24 }/>
                             <a href="https://telepost.me" target="_blank" rel="noreferrer">
                                 Telepost.me
                             </a>
@@ -57,9 +59,9 @@ export default function ProjectsPage() {
                 <div
                     className="flex items-center grow basis-1/3 p-4 flex-row-reverse md:mr-3 my-6 md:my-20 shadow shadow-indigo-500">
                     <div className="p-4">
-                        <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.2em]">
+                        <h3 className="flex items-center text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300 mb-2 font-semibold tracking-[.2em]">
                             <img className="mr-2" src={ 'favicon.ico' } alt="" width={ 24 } height={ 24 }/>
-                            <a href="https://github.com/mishamollfar/portfolio" target="_blank" rel="noreferrer">
+                            <a href="http://mykhailo-baran.pp.ua" target="_blank" rel="noreferrer">
                                 Mykhailo Baran Portfolio
                             </a>
                             <svg fill="none" viewBox="0 0 24 24" strokeWidth={ 1.5 } stroke="currentColor"
@@ -74,7 +76,7 @@ export default function ProjectsPage() {
                 <div
                     className="flex items-center flex-row-reverse grow basis-1/3 p-4 flex-row-reverse md:ml-3 my-6 md:my-20 shadow shadow-indigo-500">
                     <div className="p-4">
-                        <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.2em]">
+                        <h3 className="flex items-center text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300 mb-2 font-semibold tracking-[.2em]">
                             <img className="mr-2" src={ 'train.ico' } alt="" width={ 24 } height={ 24 }/>
                             <a href="https://github.com/mishamollfar/train-tickets" target="_blank"
                                rel="noreferrer">
@@ -94,7 +96,7 @@ export default function ProjectsPage() {
                     <img src={ 'mollfar.png' } alt="Mollfar" width={ 300 } height={ 300 }
                          className="shadow-lg shadow-indigo-500/100"/>
                     <div className="py-4 md:pr-4 md:mr-6">
-                        <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.2em]">
+                        <h3 className="flex items-center text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300 mb-2 font-semibold tracking-[.2em]">
                             <img className="mr-2" src={ 'mollfar_logo.ico' } alt="" width={ 24 } height={ 24 }/>
                             <a href="http://mollfar.pp.ua" target="_blank" rel="noreferrer">
                                 mollfar
@@ -110,7 +112,7 @@ export default function ProjectsPage() {
                 </div>
                 <div className="flex items-center grow basis-1/4 p-4 my-6 md:my-20 shadow shadow-indigo-500">
                     <div className="p-4">
-                        <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.125em]">
+                        <h3 className="flex items-center text-2xl text-cyan-300 mb-2 font-semibold tracking-[.125em]">
                             Instapost.pw
                         </h3>
                         <span>Сервіс відкладеного постингу у інстаграм(на даний час сервіс не підтримується).
@@ -122,7 +124,7 @@ export default function ProjectsPage() {
                 <div
                     className="flex items-center grow basis-1/4 p-4 md:mr-3 md:ml-3 my-6 md:my-20 shadow shadow-indigo-500">
                     <div className="p-4">
-                        <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.125em]">
+                        <h3 className="flex items-center text-2xl text-cyan-300 mb-2 font-semibold tracking-[.125em]">
                             Ecotime Chrome Extension
                         </h3>
                         <span>Chrome Extension - розширення браузера для створення, редагування і збереження контенту із web-сторінок
@@ -132,7 +134,7 @@ export default function ProjectsPage() {
                 </div>
                 <div className="flex items-center grow basis-1/4 p-4 my-6 md:my-20 shadow shadow-indigo-500">
                     <div className="p-4">
-                        <h3 className="flex items-center text-2xl text-indigo-300 mb-2 font-semibold tracking-[.125em]">
+                        <h3 className="flex items-center text-2xl text-cyan-300 mb-2 font-semibold tracking-[.125em]">
                             Instapost Chrome Extensions
                         </h3>
                         <span>Chrome Extension - розширення браузера для створення, редагування і збереження контенту із web-сторінок
@@ -147,7 +149,7 @@ export default function ProjectsPage() {
                 <div
                     className="flex basis-1/3 grow m-3 shadow hover:shadow-lg hover:shadow-sky-500/50 shadow-sky-500">
                     <div className="p-2">
-                        <h3 className="text-2xl mb-2 text-sky-200 font-semibold tracking-[.12em]">
+                        <h3 className="text-2xl mb-2 text-cyan-300 hover:text-cyan-500 transition duration-300 font-semibold tracking-[.12em]">
                             <a href="https://github.com/mishamollfar/react-chrome-extension-starter" target="_blank"
                                rel="noreferrer">
                                 react-chrome-extension-starter
@@ -159,7 +161,7 @@ export default function ProjectsPage() {
                 <div
                     className="flex basis-1/3 grow m-3 shadow hover:shadow-lg hover:shadow-sky-500/50 shadow-sky-500">
                     <div className="p-2">
-                        <h3 className="text-2xl mb-2 text-sky-200 font-semibold tracking-[.12em]">
+                        <h3 className="text-2xl mb-2 text-cyan-300 hover:text-cyan-500 transition duration-300 font-semibold tracking-[.12em]">
                             <a href="https://github.com/mishamollfar/screenshot-puppeteer-cluster" target="_blank"
                                rel="noreferrer">
                                 screenshot-puppetter
@@ -172,7 +174,7 @@ export default function ProjectsPage() {
                 <div
                     className="flex basis-1/3 grow m-3 shadow hover:shadow-lg hover:shadow-sky-500/50 shadow-sky-500">
                     <div className="p-2">
-                        <h3 className="text-2xl mb-2 text-sky-200 font-semibold tracking-[.12em]">
+                        <h3 className="text-2xl mb-2 text-cyan-300 hover:text-cyan-500 transition duration-300 font-semibold tracking-[.12em]">
                             <a href="https://github.com/mishamollfar/killer-advertising" target="_blank"
                                rel="noreferrer">
                                 killer-advertising
@@ -184,7 +186,7 @@ export default function ProjectsPage() {
                 <div
                     className="flex basis-1/3 grow m-3 shadow hover:shadow-lg hover:shadow-sky-500/50 shadow-sky-500">
                     <div className="p-2">
-                        <h3 className="text-2xl mb-2 text-sky-200 font-semibold tracking-[.12em]">
+                        <h3 className="text-2xl mb-2 text-cyan-300 hover:text-cyan-500 transition duration-300 font-semibold tracking-[.12em]">
                             <a href="https://github.com/mishamollfar/timezone-region" target="_blank"
                                rel="noreferrer">
                                 timezone-region
@@ -197,7 +199,7 @@ export default function ProjectsPage() {
                 <div
                     className="flex basis-1/3 grow m-3 shadow hover:shadow-lg hover:shadow-sky-500/50 shadow-sky-500">
                     <div className="p-2">
-                        <h3 className="text-2xl mb-2 text-sky-200 font-semibold tracking-[.12em]">
+                        <h3 className="text-2xl mb-2 text-cyan-300 hover:text-cyan-500 transition duration-300 font-semibold tracking-[.12em]">
                             <a href="https://github.com/mishamollfar/script-parse-har-to-json" target="_blank"
                                rel="noreferrer">
                                 script-parse-har-to-json

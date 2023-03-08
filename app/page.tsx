@@ -21,25 +21,31 @@ export default function HomePage() {
                         Проекти
                     </h5>
                     <ul className='flex flex-col lg:flex-row lg:flex-wrap items-center'>
-                        <li className='flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
-                            <span className='tracking-[.125em]'>2018 - 2022рр. fullstack developer</span>
-                            <span className='text-2xl text-sky-300 tracking-[.25em] mt-4'>Telemetrio</span>
+                        <li className="flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500">
+                            <span className="tracking-[.125em]">2018 - 2022рр. fullstack developer</span>
+                            <a className="text-2xl text-cyan-300 tracking-[.25em] mt-4 hover:text-cyan-500 transition duration-300"
+                               href="https://telemetr.io" target="_blank" rel="noreferrer">
+                                Telemetrio
+                            </a>
+                        </li>
+                        <li className="flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500">
+                            <span className="tracking-[.125em]">2017 - 2018рр. frontend developer</span>
+                            <a className="text-2xl text-cyan-300 tracking-[.25em] mt-4 hover:text-cyan-500 transition duration-300"
+                               href="https://telepost.me" target="_blank" rel="noreferrer">
+                                Telepost
+                            </a>
+                        </li>
+                        <li className="flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500">
+                            <span className="tracking-[.125em]">2017 - 2018рр. fullstack developer</span>
+                            <span className="text-2xl text-cyan-300 tracking-[.25em] mt-4">Chrome Plugins</span>
                         </li>
                         <li className='flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
-                            <span className='tracking-[.125em]'>2017 - 2018рр. frontend developer</span>
-                            <span className='text-2xl text-sky-300 tracking-[.25em] mt-4'>Telepost</span>
+                            <span className="tracking-[.125em]">2017р. frontend developer</span>
+                            <span className="text-2xl text-cyan-300 tracking-[.25em] mt-4">Instapost</span>
                         </li>
                         <li className='flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
-                            <span className='tracking-[.125em]'>2017 - 2018рр. fullstack developer</span>
-                            <span className='text-2xl text-sky-300 tracking-[.25em] mt-4'>Chrome Plugins</span>
-                        </li>
-                        <li className='flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
-                            <span className='tracking-[.125em]'>2017р. frontend developer</span>
-                            <span className='text-2xl text-sky-300 tracking-[.25em] mt-4'>Instapost</span>
-                        </li>
-                        <li className='flex flex-col w-full lg:basis-1/3 grow m-4 p-6 shadow shadow-sky-500'>
-                            <span className='tracking-[.125em]'>2016 - 2017рр. frontend developer / tester</span>
-                            <span className='text-2xl text-sky-300 tracking-[.25em] mt-4'>Cosar</span>
+                            <span className="tracking-[.125em]">2016 - 2017рр. frontend developer / tester</span>
+                            <span className="text-2xl text-cyan-300 tracking-[.25em] mt-4">Cosar</span>
                         </li>
                     </ul>
                 </div>
@@ -48,14 +54,23 @@ export default function HomePage() {
                         Власні проекти
                     </h5>
                     <ul className='flex flex-col md:flex-row md:flex-wrap items-center'>
-                        <li className='flex flex-col w-full md:basis-1/4 grow m-4 p-6 shadow shadow-purple-500'>
-                            <span className='text-2xl text-sky-300 tracking-[.25em] m-4'>Portfolio</span>
+                        <li className="flex flex-col w-full md:basis-1/4 grow m-4 p-6 shadow shadow-purple-500">
+                            <a className="text-2xl text-cyan-300 tracking-[.25em] m-4 hover:text-cyan-500 transition duration-300"
+                               href="http://mykhailo-baran.pp.ua/" target="_blank" rel="noreferrer">
+                                Portfolio
+                            </a>
                         </li>
-                        <li className='flex flex-col w-full md:basis-1/4 grow m-4 p-6 shadow shadow-purple-500'>
-                            <span className='text-2xl text-sky-300 tracking-[.25em] m-4'>Train tickets</span>
+                        <li className="flex flex-col w-full md:basis-1/4 grow m-4 p-6 shadow shadow-purple-500">
+                            <a className="text-2xl text-cyan-300 tracking-[.25em] m-4 hover:text-cyan-500 transition duration-300"
+                               href="https://github.com/mishamollfar/train-tickets" target="_blank" rel="noreferrer">
+                                Train tickets
+                            </a>
                         </li>
-                        <li className='flex flex-col w-full md:basis-1/4 grow m-4 p-6 shadow shadow-purple-500'>
-                            <span className='text-2xl text-sky-300 tracking-[.25em] m-4'>mollfar</span>
+                        <li className="flex flex-col w-full md:basis-1/4 grow m-4 p-6 shadow shadow-purple-500">
+                            <a className="text-2xl text-cyan-300 tracking-[.25em] m-4 hover:text-cyan-500 transition duration-300"
+                               href="http://mollfar.pp.ua/" target="_blank" rel="noreferrer">
+                                mollfar
+                            </a>
                         </li>
                     </ul>
                 </div>
