@@ -8,7 +8,6 @@ const useIsMobile = (breackpoint = 768) => {
     };
 
     useEffect(() => {
-
         if (typeof window !== 'undefined') {
             window.addEventListener('resize', handlePageResized);
             window.addEventListener('orientationchange', handlePageResized);
@@ -21,7 +20,7 @@ const useIsMobile = (breackpoint = 768) => {
             window.removeEventListener('load', handlePageResized);
             window.removeEventListener('reload', handlePageResized);
         };
-    }, []);
+    });
 
     return (width < breackpoint);
 }

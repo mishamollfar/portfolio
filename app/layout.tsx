@@ -1,5 +1,5 @@
-import Footer from "../components/footer";
-import Sidebar from "../components/sidebar";
+import Footer from '../components/footer';
+import Sidebar from '../components/sidebar';
 import '../styles/index.css';
 
 export const metadata = {
@@ -15,13 +15,13 @@ export const metadata = {
     themeColor: '#111827',
     openGraph: {
         title: 'Mykhailo Baran Portfolio',
-        url: 'http://mollfar.pp.ua/',
+        url: 'http://mykhailo-baran.pp.ua',
         images: [
             {
-                url: 'https://nextjs.org/og.png',
-                width: 800,
-                height: 600,
-            }
+                url: 'http://www.mykhailo-baran.pp.ua/favicon.ico',
+                width: 192,
+                height: 192,
+            },
         ],
     },
     robots: {
