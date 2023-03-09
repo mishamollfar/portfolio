@@ -21,3 +21,24 @@ main {
     height: auto;
     min-height: calc(100% - 124px);
 }
+
+.navigation-button {
+    @apply py-2;
+    @apply px-4;
+}
+
+.navigation-button:hover {
+    @apply text-sky-400;
+    @apply border-b-2;
+    @apply border-sky-500;
+    @apply bg-slate-700;
+    @apply rounded-sm;
+}
+
+.active-nav-btn {
+    @apply text-sky-400;
+    @apply border-b-2;
+    @apply border-sky-500;
+    @apply bg-slate-700;
+    @apply rounded-sm;
+}
