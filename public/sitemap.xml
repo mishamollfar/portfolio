@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+    <url>
+        <loc>http://mykhailo-baran.pp.ua/</loc>
+        <lastmod>new Date().toISOString().split('T')[0]</lastmod>
+    </url>
+    <url>
+        <loc>http://mykhailo-baran.pp.ua/projects</loc>
+        <lastmod>new Date().toISOString().split('T')[0]</lastmod>
+    </url>
+    <url>
+        <loc>http://mykhailo-baran.pp.ua/about</loc>
+        <lastmod>new Date().toISOString().split('T')[0]</lastmod>
+    </url>
+    <url>
+        <loc>http://mykhailo-baran.pp.ua/contact</loc>
+        <lastmod>new Date().toISOString().split('T')[0]</lastmod>
+    </url>
+</urlset>
