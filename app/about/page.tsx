@@ -51,15 +51,15 @@ export default function AboutPage() {
                             Css
                             <em className="font-normal text-slate-300 px-2"> / </em>
                             Scss
-                            <em className='font-normal text-slate-300 px-2'> / </em>
+                            <em className="font-normal text-slate-300 px-2"> / </em>
                             Nest js
-                            <em className='font-normal text-slate-300 px-2'> / </em>
+                            <em className="font-normal text-slate-300 px-2"> / </em>
                             React
-                            <em className='font-normal text-slate-300 px-2'> / </em>
+                            <em className="font-normal text-slate-300 px-2"> / </em>
                             шаблонізатор - Pug
                         </h3>
                     </div>
-                    <div className='flex flex-col items-center grow basis-1/4 py-4 px-2 mb-8'>
+                    <div className="flex flex-col items-center grow basis-1/3 py-4 px-2 mb-8">
                         <h5 className="text-xl text-neutral-400 tracking-[.2em] py-2">Веб-редактори</h5>
                         <h3 className="text-justify text-xl text-sky-300 tracking-[.125em] font-bold p-1 mt-1">
                             VS Code
@@ -67,13 +67,7 @@ export default function AboutPage() {
                             WebStorm
                         </h3>
                     </div>
-                    <div className='flex flex-col items-center grow basis-1/4 py-4 px-2 mb-8'>
-                        <h5 className="text-xl text-neutral-400 tracking-[.2em] py-2">Бази даних</h5>
-                        <h3 className="text-justify text-xl text-sky-300 tracking-[.125em] font-bold p-1 mt-1">
-                            MongoDb
-                        </h3>
-                    </div>
-                    <div className='flex flex-col items-center grow basis-1/4 py-4 px-2 mb-8'>
+                    <div className="flex flex-col items-center grow basis-1/3 py-4 px-2 mb-8">
                         <h5 className="text-xl text-neutral-400 tracking-[.2em] py-2">Системи зборки</h5>
                         <h3 className="text-justify text-xl text-sky-300 tracking-[.125em] font-bold p-1 mt-1">
                             Webpack
@@ -81,7 +75,21 @@ export default function AboutPage() {
                             Npm
                         </h3>
                     </div>
-                    <div className='flex flex-col items-center grow basis-1/3 py-4 px-2 mr-4 mb-8'>
+                    <div className="flex flex-col items-center grow basis-full py-4 px-2 mb-8">
+                        <h5 className="text-xl text-neutral-400 tracking-[.2em] py-2">Бази даних</h5>
+                        <h3 className="text-justify text-xl text-sky-300 tracking-[.125em] font-bold p-1 mt-1">
+                            MongoDb
+                        </h3>
+                        <div className="flex flex-row flex-wrap w-full items-center py-4 px-2">
+                            <img className="grow basis-1/3 p-1 mt-1" src={ 'm1.jpg' } alt="" width={ 200 }
+                                 height={ 200 }/>
+                            <img className="grow basis-1/3 p-1 mt-1" src={ 'm2.jpg' } alt="" width={ 200 }
+                                 height={ 200 }/>
+                            <img className="grow basis-1/3 p-1 mt-1" src={ 'm3.jpg' } alt="" width={ 200 }
+                                 height={ 200 }/>
+                        </div>
+                    </div>
+                    <div className="flex flex-col items-center grow basis-1/3 py-4 px-2 mr-4 mb-8">
                         <h5 className="text-xl text-neutral-400 tracking-[.2em] py-2">Операційні системи</h5>
                         <h3 className="text-justify text-xl text-sky-300 tracking-[.125em] font-bold p-1 mt-1">
                             Windows 7
