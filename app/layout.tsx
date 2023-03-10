@@ -1,4 +1,5 @@
 import Footer from '../components/footer';
+import Logo from '../components/logo';
 import Sidebar from '../components/sidebar';
 import '../styles/index.css';
 
@@ -32,15 +33,16 @@ export const metadata = {
 export default function RootLayout({ children }: {children: React.ReactNode}) {
     return (
         <html className="dark" lang='en'>
-            <body className="dark:bg-slate-900 text-white">
-                <header className="container w-auto p-4 my-0 mx-auto">
-                    <Sidebar/>
-                </header>
-                <main className="container w-full p-4 my-0 mx-auto">
-                    { children }
-                </main>
-                <Footer/>
-            </body>
+        <body className="dark:bg-slate-900 text-white">
+        <header className="container flex flex-col sm:flex-row place-content-between w-full p-4 my-0 mx-auto">
+            <Logo/>
+            <Sidebar/>
+        </header>
+        <main className="container w-full p-4 my-0 mx-auto">
+            { children }
+        </main>
+        <Footer/>
+        </body>
         </html>
     );
 }

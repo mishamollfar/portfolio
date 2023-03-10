@@ -42,3 +42,21 @@ main {
     @apply bg-slate-700;
     @apply rounded-sm;
 }
+
+.logo > .logo-image {
+    border-radius: 50%;
+    border-bottom: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-top: 2px solid blue;
+    border-left: 2px solid blue;
+    padding: 8px;
+    margin-right: 12px;
+}
+
+.logo > .logo-info > .name {
+    padding: 0 4px 2px 4px;
+}
+
+.logo > .logo-info > .role {
+    padding: 2px 4px 0 4px;
+}
