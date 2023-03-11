@@ -1,7 +1,7 @@
-import Address from "../../components/address";
+import Address from '../../components/address';
 
 export const metadata = {
-    title: 'Contact | Mykhailo Baran Portfolio',
+    title: 'Contact | Mykhailo Baran Portfolio | full stack developer - official website | mykhailo-baran.pp.ua',
 };
 
 export default function ContactPage() {

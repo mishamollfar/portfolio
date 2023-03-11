@@ -4,20 +4,27 @@ import Sidebar from '../components/sidebar';
 import '../styles/index.css';
 
 export const metadata = {
-    title: 'Mykhailo Baran Portfolio',
-    description: `I am a full stack developer. For 6 years, I worked at a startup creating:
+    title: 'Mykhailo Baran Portfolio | full stack developer - official website | mykhailo-baran.pp.ua',
+    description: `Official website of Mykhailo Baran. I am a full stack developer. For 6 years, I worked at a startup creating:
          web services (automated posting to social networks and statistics of Telegram channels),
          extensions for chrome and custom APIs, and also created my own small services.
          Used modern technologies in projects: Angular 2+, Node.js, Nest js, React, Scss, HTML, MongoDb, Rxjs.
-         Baran Mykhailo portfolio.`,
+         Baran Mykhailo portfolio. Visit the official page of Mykhailo Baran and learn about Mykhailo's work and skills.`,
     keywords: `backend, freelance, freelancer, full stack, frontend, developer, develop, responsive, web, website,
      service,  ui, ux, user, interface, experience, application, app, interaction, git, mongodb, react, angular,
       java script, typesctipt, node.js, next.js, npm, python, telemetr.io, mollfar.pp.ua, junior, middle, portfolio, 
-      case, study, studies, projects, ukraine, ternopil, lviv, zboriv, Baran Mykhailo, Баран Михайло, портфоліо`,
+      case, study, studies, projects, ukraine, ternopil, lviv, zboriv, Baran Mykhailo, Баран Михайло, портфоліо, 
+      Баран Михайло, офіційна сторінка`,
     themeColor: '#111827',
     openGraph: {
-        title: 'Mykhailo Baran Portfolio',
+        title: 'Mykhailo Baran Portfolio | full stack developer - official website | mykhailo-baran.pp.ua',
+        description: `Official website of Mykhailo Baran. I am a full stack developer. For 6 years, I worked at a startup creating:
+         web services (automated posting to social networks and statistics of Telegram channels),
+         extensions for chrome and custom APIs, and also created my own small services.
+         Used modern technologies in projects: Angular 2+, Node.js, Nest js, React, Scss, HTML, MongoDb, Rxjs.
+         Baran Mykhailo portfolio. Visit the official page of Mykhailo Baran and learn about Mykhailo's work and skills.`,
         url: 'http://mykhailo-baran.pp.ua',
+        type: 'website',
         images: [
             {
                 url: 'http://www.mykhailo-baran.pp.ua/favicon.ico',

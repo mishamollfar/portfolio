@@ -1,5 +1,5 @@
 export const metadata = {
-    title: 'Developed Projects | Mykhailo Baran Portfolio',
+    title: 'Developed Projects | Mykhailo Baran Portfolio | full stack developer - official website | mykhailo-baran.pp.ua',
 };
 
 export default function ProjectsPage() {
