@@ -1,6 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind screens;
+
+html {
+  @apply h-full;
+}
+
+body {
+  @apply h-full;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  @apply h-full;
+}
+
+main {
+  height: auto;
+  min-height: calc(100% - 124px);
+}
+
+.navigation-button {
+  @apply py-2;
+  @apply px-4;
+}
+
+.navigation-button:hover {
+  @apply text-sky-400;
+  @apply border-b-2;
+  @apply border-sky-500;
+  @apply bg-slate-700;
+  @apply rounded-sm;
+}
+
+.active-nav-btn {
+  @apply text-sky-400;
+  @apply border-b-2;
+  @apply border-sky-500;
+  @apply bg-slate-700;
+  @apply rounded-sm;
+}
+
+.logo > .logo-image {
+  border-radius: 50%;
+  border-bottom: 2px solid yellow;
+  border-right: 2px solid yellow;
+  border-top: 2px solid blue;
+  border-left: 2px solid blue;
+  padding: 8px;
+  margin-right: 12px;
+}
+
+.logo > .logo-info > .name {
+  padding: 0 4px 2px 4px;
+}
+
+.logo > .logo-info > .role {
+  padding: 2px 4px 0 4px;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -14,16 +73,6 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {

@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Host: http://mykhailo-baran.pp.ua
+Sitemap: http://mykhailo-baran.pp.ua/sitemap.xml
