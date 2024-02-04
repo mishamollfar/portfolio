@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export const metadata = {
     title: 'Developed Projects | Mykhailo Baran Portfolio | full stack developer - official website | mykhailo-baran.pp.ua',
 };
@@ -16,11 +18,11 @@ export default function ProjectsPage() {
             <div className="flex flex-col md:flex-row md:flex-wrap justify-between mt-8 md:mt-20">
                 <div
                     className="flex flex-col md:flex-row items-center place-content-between grow p-4 my-6 md:my-10">
-                    <img className="shadow-lg shadow-indigo-500/100" src={ 'polygraf.png' } alt="Polygraf"
+                    <Image className="shadow-lg shadow-indigo-500/100" src={ '/polygraf.png' } alt="Polygraf"
                          width={ 300 } height={ 300 }/>
                     <div className="py-4 md:pl-4 md:ml-6">
                         <h3 className="flex items-center text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300 mb-2 font-semibold tracking-[.2em]">
-                            <img className="mr-2" src={ 'polygraf.svg' } alt="" width={ 26 } height={ 24 }/>
+                            <Image className="mr-2" src={ '/polygraf.svg' } alt="" width={ 26 } height={ 24 }/>
                             <a href="https://polygraf-ohgvdy7vb-mishamollfar.vercel.app" target="_blank" rel="noreferrer">
                                 Polygraf.ai
                             </a>
@@ -35,11 +37,11 @@ export default function ProjectsPage() {
                 </div>
                 <div
                     className="flex flex-col md:flex-row-reverse items-center place-content-between grow p-4 my-6 md:my-10">
-                    <img className="shadow-lg shadow-indigo-500/100" src={ 'telemetr.png' } alt="Telemetrio"
+                    <Image className="shadow-lg shadow-indigo-500/100" src={ '/telemetr.png' } alt="Telemetrio"
                          width={ 300 } height={ 300 }/>
                     <div className="py-4 md:pr-4 md:mr-6">
                         <h3 className="flex items-center text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300 mb-2 font-semibold tracking-[.2em]">
-                            <img className="mr-2" src={ 'telemetrio_logo.png' } alt="" width={ 26 } height={ 24 }/>
+                            <Image className="mr-2" src={ '/telemetrio_logo.png' } alt="" width={ 26 } height={ 24 }/>
                             <a href="https://telemetr.io" target="_blank" rel="noreferrer">
                                 Telemetr.io
                             </a>
@@ -55,11 +57,11 @@ export default function ProjectsPage() {
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row items-center place-content-between grow p-4 my-6 md:my-10">
-                    <img className="shadow-lg shadow-indigo-500/100" src={ 'telepost.png' } alt="Telepost"
+                    <Image className="shadow-lg shadow-indigo-500/100" src={ '/telepost.png' } alt="Telepost"
                          width={ 300 } height={ 300 }/>
                     <div className="py-4 md:pl-4 md:ml-6">
                         <h3 className="flex items-center text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300 mb-2 font-semibold tracking-[.2em]">
-                            <img className="mr-2" src={ 'telepost-icon.ico' } alt="" width={ 26 } height={ 24 }/>
+                            <Image className="mr-2" src={ '/telepost-icon.ico' } alt="" width={ 26 } height={ 24 }/>
                             <a href="https://telepost.me" target="_blank" rel="noreferrer">
                                 Telepost.me
                             </a>
@@ -79,7 +81,7 @@ export default function ProjectsPage() {
                     className="flex items-center grow basis-1/3 p-4 flex-row-reverse md:mr-3 my-6 md:my-20 shadow shadow-indigo-500">
                     <div className="p-4">
                         <h3 className="flex items-center text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300 mb-2 font-semibold tracking-[.2em]">
-                            <img className="mr-2" src={ 'favicon.ico' } alt="" width={ 24 } height={ 24 }/>
+                            <Image className="mr-2" src={ '/favicon.ico' } alt="" width={ 24 } height={ 24 }/>
                             <a href="http://mykhailo-baran.pp.ua" target="_blank" rel="noreferrer">
                                 Mykhailo Baran Portfolio
                             </a>
@@ -96,7 +98,7 @@ export default function ProjectsPage() {
                     className="flex items-center flex-row-reverse grow basis-1/3 p-4 flex-row-reverse md:ml-3 my-6 md:my-20 shadow shadow-indigo-500">
                     <div className="p-4">
                         <h3 className="flex items-center text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300 mb-2 font-semibold tracking-[.2em]">
-                            <img className="mr-2" src={ 'train.ico' } alt="" width={ 24 } height={ 24 }/>
+                            <Image className="mr-2" src={ '/train.ico' } alt="" width={ 24 } height={ 24 }/>
                             <a href="https://github.com/mishamollfar/train-tickets" target="_blank"
                                rel="noreferrer">
                                 Train tickets
@@ -112,11 +114,11 @@ export default function ProjectsPage() {
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row-reverse items-center place-content-between grow p-4 my-8 md:my-20">
-                    <img src={ 'mollfar.png' } alt="Mollfar" width={ 300 } height={ 300 }
+                    <Image src={ '/mollfar.png' } alt="Mollfar" width={ 300 } height={ 300 }
                          className="shadow-lg shadow-indigo-500/100"/>
                     <div className="py-4 md:pr-4 md:mr-6">
                         <h3 className="flex items-center text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300 mb-2 font-semibold tracking-[.2em]">
-                            <img className="mr-2" src={ 'mollfar_logo.ico' } alt="" width={ 24 } height={ 24 }/>
+                            <Image className="mr-2" src={ '/mollfar_logo.ico' } alt="" width={ 24 } height={ 24 }/>
                             <a href="http://mollfar.pp.ua" target="_blank" rel="noreferrer">
                                 mollfar
                             </a>

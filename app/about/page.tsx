@@ -1,4 +1,5 @@
 import Address from '../../components/Address';
+import Image from 'next/image';
 
 export const metadata = {
     title: 'About | Mykhailo Baran Portfolio | mykhailo-baran.pp.ua',
@@ -17,7 +18,7 @@ export default function AboutPage() {
                         Розробкою займаюся з 2016 року, створюючи: веб-сервіси, розширення для chrome та користувацькі api.
                     </p>
                 </div>
-                <img className="shadow-lg shadow-indigo-500/100" src={ 'me.jpg' } alt="me"
+                <Image className="shadow-lg shadow-indigo-500/100" src={ '/me.jpg' } alt="me"
                      width={ 300 } height={ 400 }/>
             </div>
             <div className='flex flex-wrap items-center w-full py-4 sm:py-6 px-4'>
@@ -81,11 +82,11 @@ export default function AboutPage() {
                             MongoDb
                         </h3>
                         <div className="flex flex-row flex-wrap w-full items-center py-4 px-2">
-                            <img className="grow basis-1/3 p-1 mt-1" src={ 'm1.jpg' } alt="" width={ 200 }
+                            <Image className="grow basis-1/3 p-1 mt-1" src={ '/m1.jpg' } alt="" width={ 200 }
                                  height={ 200 }/>
-                            <img className="grow basis-1/3 p-1 mt-1" src={ 'm2.jpg' } alt="" width={ 200 }
+                            <Image className="grow basis-1/3 p-1 mt-1" src={ '/m2.jpg' } alt="" width={ 200 }
                                  height={ 200 }/>
-                            <img className="grow basis-1/3 p-1 mt-1" src={ 'm3.jpg' } alt="" width={ 200 }
+                            <Image className="grow basis-1/3 p-1 mt-1" src={ '/m3.jpg' } alt="" width={ 200 }
                                  height={ 200 }/>
                         </div>
                     </div>

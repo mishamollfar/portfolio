@@ -1,10 +1,11 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Logo() {
     return (
         <Link href={ { pathname: '/' } } className="logo flex items-center">
             <div className="logo-image">
-                <img src={ 'favicon.ico' } alt="" width={ 24 } height={ 24 }/>
+                <Image src={ '/favicon.ico' } alt="" width={ 24 } height={ 24 }/>
             </div>
             <p className="logo-info flex flex-col text-left">
                 <span className="name text-sky-400 text-base tracking-[.4em] font-bold">

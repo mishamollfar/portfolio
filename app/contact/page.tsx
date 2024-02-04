@@ -8,8 +8,9 @@ export default function ContactPage() {
     return (
         <section className="my-7">
             <h1 className="text-3xl text-neutral-400 text-center lg:text-left mt-7 mb-4 tracking-[.4em] uppercase">Контакти</h1>
-            <p className="text-lg text-center lg:text-left mb-7">Якщо ви хочете зв'язатися зі мною, відправте email або через соціальні
-                мережі</p>
+            <p className="text-lg text-center lg:text-left mb-7">
+                Якщо ви хочете зв'язатися зі мною, відправте email або через соціальні мережі
+            </p>
             <form action="mailto:tymish1@gmail.com" method="post" encType="text/plain"
                   className="flex flex-col justify-center items-center my-8 w-full">
                 <div className="flex flex-col mb-6 w-full lg:w-1/2">

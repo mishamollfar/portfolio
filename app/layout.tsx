@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import { GoogleAnalytics } from '@next/third-parties/google';
+import Script from 'next/script'
 import "./globals.css";
 import { PropsWithChildren } from "react";
 import Footer from "../components/Footer";
@@ -73,7 +74,7 @@ export default function RootLayout({ children }: LayoutProps) {
   return (
     <html className="dark" lang='en'>
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHKQDTT2VZ"/>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-EHKQDTT2VZ"/>
       </head>
       <body className="dark:bg-slate-900 text-white">
         <header className="container flex flex-col sm:flex-row place-content-between w-full p-4 my-0 mx-auto">
