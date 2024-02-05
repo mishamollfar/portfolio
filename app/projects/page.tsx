@@ -136,7 +136,7 @@ export default function ProjectsPage() {
                         <h3 className="flex items-center text-2xl text-cyan-300 mb-2 font-semibold tracking-[.125em]">
                             Instapost.pw
                         </h3>
-                        <span>Сервіс відкладеного постингу у інстаграм(на даний час сервіс не підтримується).
+                        <span>Сервіс відкладеного постингу в інстаграм(на даний час сервіс не підтримується).
                                 Український сервіс створення контенту,
                                 причому з можливістю відкладеного публікування та створення різних типів постів.
                                 Над сервісом працював 1 рік як frontend розробник</span>
@@ -165,7 +165,7 @@ export default function ProjectsPage() {
                 </div>
             </div>
             <h2 className="text-3xl my-8 md:my-20 font-semibold w-full tracking-[.125em]">Власні проекти: розширення Chrome, nodejs -
-                проект так і js - скріпти.</h2>
+                проекти так і js - скріпти.</h2>
             <div className="flex flex-col md:flex-row md:flex-wrap">
                 <div
                     className="flex basis-1/3 grow m-3 shadow hover:shadow-lg hover:shadow-sky-500/50 shadow-sky-500">

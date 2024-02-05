@@ -247,7 +247,7 @@ export default function AboutPage() {
                     </p>
                     <p>
                         <b className="text-xl text-cyan-500 tracking-[.125em]">англійська</b>
-                        <span> – базовий (читаю і частково розумію, елементарне спілкування).</span>
+                        <span> – базовий (читаю і частково розумію, елементарне спілкування, проходжу курси Promova).</span>
                     </p>
                 </div>
             </div>
